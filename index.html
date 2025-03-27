@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página segura com CSP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="h1">
+        <h1>Cadastro</h1>
+    </div>
+    
+    <style>
+        img{
+            float: left;
+            width: 350px;
+            height: 350px;
+            margin-right: 15px;
+        }
+        .h1{
+            align-items: center;
+           
+        }
+    </style>
+   
+    <p>
+        Digite seu nome:
+        <input type="text" id="nome">
+    </p>
+    <p>
+        Digite tratamento:
+        <input type="text" id="tratamento">
+    </p>
+    <p>
+        Digite o valor a pagar
+        <input type="text" id="valor">
+    </p>
+    <!-- <input type="button" value="Confirma" onclick="resposta()"> -->
+    <p id="resposta"></p>
+
+
+    <button id="btnExecutar">Clique aqui!!!!!!</button>
+    <script>
+        console.log('testando se está funcionando o script');
+    </script>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
